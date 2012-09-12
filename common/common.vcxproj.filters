@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sys">
+      <UniqueIdentifier>{c388dccb-0089-4aca-8dfb-dc4410be1daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sys\sync">
+      <UniqueIdentifier>{07ad45bc-857c-488f-8349-d6d782731f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sys\stl">
+      <UniqueIdentifier>{4c3e5ed9-5759-4d38-b7c3-80cd0cd3509d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{e40297d2-0d9e-4710-bcd0-3ff09507f3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{a6101108-c0b1-4267-ac6e-60fd91812ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simd">
+      <UniqueIdentifier>{eb91edb4-7b31-4ef7-8dce-58109dc4b0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lexers">
+      <UniqueIdentifier>{a493bb1b-241a-41c1-8558-0d7cd2683768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loaders">
+      <UniqueIdentifier>{3b9b733c-0a96-42e6-b47d-05e1a292dc55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sys\constants.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\filename.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\intrinsics.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\library.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\platform.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\ref.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\sysinfo.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\taskscheduler.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\taskscheduler_standard.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\thread.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\sync\atomic.h">
+      <Filter>sys\sync</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\sync\atomic_list.h">
+      <Filter>sys\sync</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\sync\barrier.h">
+      <Filter>sys\sync</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\sync\condition.h">
+      <Filter>sys\sync</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\sync\mutex.h">
+      <Filter>sys\sync</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\stl\array2d.h">
+      <Filter>sys\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\stl\string.h">
+      <Filter>sys\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\stl\vector.h">
+      <Filter>sys\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="image\image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="math\affinespace.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\bbox.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\col3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\col3f_sse.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\linearspace3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\permutation.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\quaternion.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\random.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\vec2.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\vec3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\vec3b_sse.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\vec3f_sse.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\vec3i_sse.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\vec4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="simd\avx.h">
+      <Filter>simd</Filter>
+    </ClInclude>
+    <ClInclude Include="simd\avxb.h">
+      <Filter>simd</Filter>
+    </ClInclude>
+    <ClInclude Include="simd\avxf.h">
+      <Filter>simd</Filter>
+    </ClInclude>
+    <ClInclude Include="simd\avxi.h">
+      <Filter>simd</Filter>
+    </ClInclude>
+    <ClInclude Include="simd\immintrin_emu.h">
+      <Filter>simd</Filter>
+    </ClInclude>
+    <ClInclude Include="simd\smmintrin_emu.h">
+      <Filter>simd</Filter>
+    </ClInclude>
+    <ClInclude Include="simd\sse.h">
+      <Filter>simd</Filter>
+    </ClInclude>
+    <ClInclude Include="simd\sse_special.h">
+      <Filter>simd</Filter>
+    </ClInclude>
+    <ClInclude Include="simd\sseb.h">
+      <Filter>simd</Filter>
+    </ClInclude>
+    <ClInclude Include="simd\ssef.h">
+      <Filter>simd</Filter>
+    </ClInclude>
+    <ClInclude Include="simd\ssei.h">
+      <Filter>simd</Filter>
+    </ClInclude>
+    <ClInclude Include="lexers\parsestream.h">
+      <Filter>lexers</Filter>
+    </ClInclude>
+    <ClInclude Include="lexers\stream.h">
+      <Filter>lexers</Filter>
+    </ClInclude>
+    <ClInclude Include="lexers\streamfilters.h">
+      <Filter>lexers</Filter>
+    </ClInclude>
+    <ClInclude Include="lexers\stringstream.h">
+      <Filter>lexers</Filter>
+    </ClInclude>
+    <ClInclude Include="lexers\tokenstream.h">
+      <Filter>lexers</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\loaders.h">
+      <Filter>loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\xml_loader.h">
+      <Filter>loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\xml_parser.h">
+      <Filter>loaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sys\filename.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\library.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\platform.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\sysinfo.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\taskscheduler_standard.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\thread.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\sync\condition.cpp">
+      <Filter>sys\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\sync\mutex.cpp">
+      <Filter>sys\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\stl\string.cpp">
+      <Filter>sys\stl</Filter>
+    </ClCompile>
+    <ClCompile Include="image\exr.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\magick.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\pfm.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\ppm.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\tga.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="lexers\stringstream.cpp">
+      <Filter>lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="lexers\tokenstream.cpp">
+      <Filter>lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\loaders.cpp">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\obj_loader.cpp">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\xml_loader.cpp">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\xml_parser.cpp">
+      <Filter>loaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="loaders\obj_loader.h">
+      <Filter>loaders</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

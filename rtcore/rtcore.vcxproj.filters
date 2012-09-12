@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="triangles">
+      <UniqueIdentifier>{72a27d1d-fd6c-45a6-ad68-bc81e61b723d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{55aa485b-b389-4308-9670-a1af50ff777f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bvh2">
+      <UniqueIdentifier>{9dae40ef-f59d-4a8d-8fb7-7bbb8312da46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bvh4">
+      <UniqueIdentifier>{d41136cd-ad02-49ff-a2c2-cb0d5a920613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bvh4mb">
+      <UniqueIdentifier>{66dc12b2-dff5-419a-9554-72ca695c75ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="triangle\triangle.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle1.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle1_intersector1_moeller.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle1i.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle1i_intersector1_moeller.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle1i_intersector1_pluecker.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle1v.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle1v_intersector1_moeller.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle1v_intersector1_pluecker.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle1xfm.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle1xfm_intersector1_moeller.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle4.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle4_intersector1_moeller.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle4i.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle4i_intersector1_moeller.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle4i_intersector1_moeller_mb.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle4i_intersector1_pluecker.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle4i_intersector1_pluecker_mb.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle4v.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle4v_intersector1_moeller.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle4v_intersector1_pluecker.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle4xfm.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle4xfm_intersector1_moeller.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle8.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangle8_intersector1_moeller.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle\triangles.h">
+      <Filter>triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="common\accel.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\alloc.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\atomic_set.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\basenode.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\default.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\heuristic_binning.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\heuristic_spatial.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\heuristics.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\hit.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\intersector.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\primref.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\primrefalloc.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\primrefblock.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\primrefgen.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ray.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\splitter.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\splitter_fallback.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\splitter_parallel.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\stack_item.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\stat.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh2\bvh2.h">
+      <Filter>bvh2</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh2\bvh2_builder.h">
+      <Filter>bvh2</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh2\bvh2_intersector.h">
+      <Filter>bvh2</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh4\bvh4.h">
+      <Filter>bvh4</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh4\bvh4_builder.h">
+      <Filter>bvh4</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh4\bvh4_intersector.h">
+      <Filter>bvh4</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh4mb\bvh4mb.h">
+      <Filter>bvh4mb</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh4mb\bvh4mb_builder.h">
+      <Filter>bvh4mb</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh4mb\bvh4mb_intersector.h">
+      <Filter>bvh4mb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common\accel.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\alloc.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\heuristic_binning.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\heuristic_spatial.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\primrefgen.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\splitter.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\splitter_fallback.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\splitter_parallel.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\stat.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="bvh2\bvh2.cpp">
+      <Filter>bvh2</Filter>
+    </ClCompile>
+    <ClCompile Include="bvh2\bvh2_builder.cpp">
+      <Filter>bvh2</Filter>
+    </ClCompile>
+    <ClCompile Include="bvh2\bvh2_intersector.cpp">
+      <Filter>bvh2</Filter>
+    </ClCompile>
+    <ClCompile Include="bvh4\bvh4.cpp">
+      <Filter>bvh4</Filter>
+    </ClCompile>
+    <ClCompile Include="bvh4\bvh4_builder.cpp">
+      <Filter>bvh4</Filter>
+    </ClCompile>
+    <ClCompile Include="bvh4\bvh4_intersector.cpp">
+      <Filter>bvh4</Filter>
+    </ClCompile>
+    <ClCompile Include="bvh4mb\bvh4mb.cpp">
+      <Filter>bvh4mb</Filter>
+    </ClCompile>
+    <ClCompile Include="bvh4mb\bvh4mb_builder.cpp">
+      <Filter>bvh4mb</Filter>
+    </ClCompile>
+    <ClCompile Include="bvh4mb\bvh4mb_intersector.cpp">
+      <Filter>bvh4mb</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
