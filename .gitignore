@@ -1,0 +1,10 @@
+_UpgradeReport_Files/*
+Win32/*/*
+x64/*/*
+*/Debug/*
+*/*/Debug/*
+*/Release/*
+*/*/Release/*
+*.suo
+*.sdf
+*.opensdf
